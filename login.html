@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        span { color: red; font-size: 14px; }        
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 100vh;
+        }
+        .form-container{
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            height: 600px;
+        }
+        .form-container h1{
+            margin-bottom: 20px;
+            text-align: center;
+
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        .form-group label{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input{
+            width: 90%;
+            padding: 20px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .form-group input:focus{
+            border-color: 007bff;
+            outline: none;
+        }
+        .form-group button{
+            width: 100%;
+            padding: 10px;
+            background-color:red;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover{
+            background-color: #000;
+        }
+        .button btn{
+            width: 100%;
+            padding: 10px;
+            background-color:green;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;  
+        }
+    
+    </style>
+</head>
+<body>
+   <img src="img2.jpg" style="width: 100%; height: 500px; z-index: -2; position: absolute;" >
+   <div class="form-container">
+    <h1>DEVELOPER FORM</h1>
+    <div class="form-group">
+    <form id="my-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <span id="nameerror"></span>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <span id="emailerror"></span>        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span id="passworderror"></span>        
+        <p>If you are done with the form click here <a href="project.html">=></a></p>
+        <button type="submit" > submit</button><br><br>
+       <button type="submit"style="background-color:green;" ><a href="hello.html">back</a></button><br><br>
+       <a href="forgot.html">forgot passsword</a>
+       <p>if you don't have account <a href="create.html">CREATE ACCOUNT</a></p>
+<script src="login.js">
+  
+</script>
+   
+</body>
+<video src="https://www.youtube.com/watch?v=yFBvC_zRiek"></video>
+</html>
+
+</html>
